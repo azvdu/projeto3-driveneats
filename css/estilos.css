@@ -53,7 +53,7 @@ body {
 }
 .site .corpo .pratos {
     display: flex;
-    /* overflow: scroll; */
+    overflow: scroll;
     gap: 16px;
 }
 .site .corpo .pratos .opcao {
@@ -101,7 +101,7 @@ body {
 }
 .site .corpo .bebidas {
     display: flex;
-    /* overflow: scroll; */
+    overflow: scroll;
     gap: 16px;
 }
 .site .corpo .bebidas .opcao {
@@ -149,7 +149,7 @@ body {
 }
 .site .corpo .sobremesa {
     display: flex;
-    /* overflow: scroll; */
+    overflow: scroll;
     gap: 16px;
 }
 .site .corpo .sobremesa .opcao {
