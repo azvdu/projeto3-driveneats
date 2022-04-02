@@ -48,9 +48,13 @@ body {
     padding-left: 19px;
     padding-bottom: 92px;
 }
+.site .corpo .etapa {
+    margin-top: 27px;
+}
 .site .corpo .pratos {
     display: flex;
     /* overflow: scroll; */
+    gap: 16px;
 }
 .site .corpo .pratos .opcao {
     background-color: #ffffff;
@@ -94,4 +98,122 @@ body {
     font-size: 16px;
 
     margin-top: 5px;
+}
+.site .corpo .bebidas {
+    display: flex;
+    /* overflow: scroll; */
+    gap: 16px;
+}
+.site .corpo .bebidas .opcao {
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 9px;
+    box-shadow: 1px 1px 4px gray;
+
+    width: 172px;
+    height: 216px;
+    margin-top: 17px;
+    padding: 18px 14px 8px 14px;
+}
+.site .corpo .bebidas .opcao img {
+    border-radius: 9px;
+
+    width: 144px;
+    height: 87px;
+}
+.site .corpo .bebidas .opcao h1 {
+    color: #333333;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+
+    margin-top: 8px;
+}
+.site .corpo .bebidas .opcao h2 {
+    color: #a6a6a6;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 300;
+
+    margin-top: 12px;
+}
+.site .corpo .bebidas .opcao .preco {
+    color: #000000;
+    font-family: 'Roboto';
+    font-size: 16px;
+
+    margin-top: 9px;
+}
+.site .corpo .sobremesa {
+    display: flex;
+    /* overflow: scroll; */
+    gap: 16px;
+}
+.site .corpo .sobremesa .opcao {
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 9px;
+    box-shadow: 1px 1px 4px gray;
+
+    width: 172px;
+    height: 216px;
+    margin-top: 17px;
+    padding: 18px 14px 8px 14px;
+}
+.site .corpo .sobremesa .opcao img {
+    border-radius: 9px;
+
+    width: 144px;
+    height: 87px;
+}
+.site .corpo .sobremesa .opcao h1 {
+    color: #333333;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+
+    margin-top: 8px;
+}
+.site .corpo .sobremesa .opcao h2 {
+    color: #a6a6a6;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 300;
+
+    margin-top: 12px;
+}
+.site .corpo .sobremesa .opcao .preco {
+    color: #000000;
+    font-family: 'Roboto';
+    font-size: 16px;
+
+    margin-top: 9px;
+}
+.site .barra-inferior {
+    background-color: #ffffff;
+
+    height: 92px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+}
+.site .barra-inferior .botao {
+    background-color: #cbcbcb;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+    height: 61px;
 }
