@@ -195,9 +195,15 @@ body {
 
     margin-top: 9px;
 }
+
+
 .site .barra-inferior {
     background-color: #ffffff;
 
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
     height: 92px;
     padding-top: 15px;
     padding-right: 25px;
@@ -214,6 +220,13 @@ body {
     justify-content: center;
     align-items: center;
 
+
     border-radius: 50px;
     height: 61px;
+}
+
+
+.selecionado {
+    border: 6px solid #32B72F;
+
 }
